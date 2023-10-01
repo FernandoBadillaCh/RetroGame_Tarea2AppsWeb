@@ -29,7 +29,7 @@ header, #header {
     margin: 0 auto;
 }
 
-h1 {font-size: 45px;
+h1 {font-size: 55px;
     margin: 0 5px;
 
 }
@@ -52,6 +52,7 @@ h1 {font-size: 45px;
 #Links a {
     text-decoration: none;
     color: white;
+    font-size: 22px;
 }
 
 #Links :hover {
