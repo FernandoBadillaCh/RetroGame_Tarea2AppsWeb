@@ -1,0 +1,126 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-color: #6d6175;
+    margin: 0;
+    padding: 0;
+}
+
+#Titulo{
+   display: flex;}
+
+
+header, #header {
+    background-color: #010712;
+    color: white;
+    padding: 2.5%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+#logo {
+    max-width:200px;
+    margin: 0 auto;
+}
+
+h1 {font-size: 45px;
+    margin: 0 5px;
+
+}
+#Links{
+    margin: 0 auto;
+
+}
+
+#Links ul {
+    list-style-type: none;
+    display: flex;
+}
+
+
+
+#Links ul li {
+    margin-right: 20px;
+}
+
+#Links a {
+    text-decoration: none;
+    color: white;
+}
+
+#Links :hover {
+    color: #b126f8;
+}
+
+.imgMain{
+width: 100%;
+    max-height: 700px;
+}
+
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 35px 9.9%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.productos li:hover {
+    border-color: #b126f8;
+
+
+}
+
+.productos li:active {
+    border-color: #088c19;
+}
+
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.productos li:hover h2 {
+    font-size: 33px;
+}
+
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.Spiderman{
+    max-width: 500px;
+    max-height: 15%;
+}
+
+
+
+
+footer {
+    background-color: #000235;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#imgFooter{
+    max-width: 300px;
+}
