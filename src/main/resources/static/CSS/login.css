@@ -1,0 +1,76 @@
+.BackgroundForm{
+    background: linear-gradient(#6d6175,#000235);
+
+ padding-top: 2%;
+}
+
+body{
+    background: #000235;
+}
+form {
+    color: aliceblue;
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 auto 30px;
+    text-align: center;
+    padding-top: 18px;
+
+}
+
+.input-padron {
+    padding: 10px 25px;
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+}
+
+
+#enviarformulario {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 15%;
+    padding: 25px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #06a8f3;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+
+    cursor: pointer;
+}
+
+#enviarformulario:hover {
+
+    background: #c406ce;
+    transform: scale(1.15);
+
+}
+
+
+#enviarformularioOlvide {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 15%;
+    padding: 25px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #06a8f3;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+
+    cursor: pointer;
+}
+
+#enviarformularioOlvide:hover {
+
+    background: #7e0327;
+    transform: scale(1.15);
+
+}

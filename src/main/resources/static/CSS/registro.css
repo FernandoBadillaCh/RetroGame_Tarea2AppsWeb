@@ -1,0 +1,73 @@
+.BackgroundForm{
+    background: linear-gradient(#6d6175,#000235);
+}
+
+body{
+    background: #000235;
+}
+form {
+    color: aliceblue;
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 auto 30px;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.input-padron {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 25px;
+    width: 30%;
+}
+
+.checkbox {
+    margin: 20px 0px;
+}
+
+#enviarformulario {
+    margin: 30px auto 0;
+
+    width: 25%;
+    padding: 25px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #06a8f3;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+#enviarformulario:hover {
+
+    background: #c406ce;
+    transform: scale(1.15);
+
+}
+
+table, table td, table tr{
+
+
+    border: solid;
+    padding: 10px;
+    margin: 15px auto 0;
+
+}
+
+table tbody{
+    background: lightgray;
+}
+
+table thead{
+    font-weight: bold;
+    text-align: center;
+    background: gray;
+}

@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bienvenido!!</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="../CSS/reset.css">
     <link rel="stylesheet" href="../CSS/Style.css">
+    <link rel="stylesheet" href="../CSS/login.css">
+
 </head>
 <body>
 
@@ -23,6 +26,24 @@
             </ul>
         </nav>
     </header>
+</section>
+
+<section class="BackgroundForm">
+    <form>
+        <label for="nombreapellido">Usuario</label>
+        <input type="text" id="nombreapellido" class="input-padron" required>
+
+        <label for="Contraseña">Contraseña</label>
+        <input type="password" id="Contraseña" class="input-padron" required>
+
+        <label class="checkbox"><input type = "checkbox">Recordar Usuario</label>
+
+        <input class="input-padron" type="submit" value="Iniciar Sesíon" id="enviarformulario">
+        <input class="input-padron" type="submit" value="Olvide Contraseña" id="enviarformularioOlvide">
+
+
+    </form>
+
 </section>
 
 <section>
