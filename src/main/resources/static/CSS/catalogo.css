@@ -1,3 +1,7 @@
+#background{
+    background: linear-gradient(#6d6175,#000235);
+}
+
 .productos .izquierda{
     display: inline-block;
     text-align: center;
@@ -24,8 +28,6 @@
 
 .productos li:hover {
     border-color: #b126f8;
-
-
 }
 
 
@@ -41,8 +43,9 @@
     font-size: 33px;
 }
 
+
 .producto-descripcion {
-    font-size: 18px;
+    font-size: 20px;
     color: aliceblue;
 
 }
@@ -60,7 +63,7 @@
     margin-bottom: 20px;
 }
 
-#enviarcarrito {
+.enviarcarrito {
     margin: 30px auto 0;
 
     width: 50%;
@@ -77,7 +80,7 @@
     cursor: pointer;
 }
 
-#enviarcarrito:hover {
+.enviarcarrito:hover {
 
     background: #c406ce;
     transform: scale(1.15);

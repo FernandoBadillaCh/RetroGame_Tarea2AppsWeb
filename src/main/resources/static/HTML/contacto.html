@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="../CSS/reset.css">
     <link rel="stylesheet" href="../CSS/Style.css">
+    <link rel="stylesheet" href="../CSS/contacto.css">
+
 </head>
 <body>
 
-<section >
+<section>
     <header class="header">
         <img id="logo" src="../../img/Logo.jpg"/>
         <div id="Titulo"><h1 style="color: #b126f8">Retro </h1><h1> Game</h1></div>
@@ -25,6 +28,45 @@
     </header>
 </section>
 
+<section id=contacto style="background: linear-gradient(#6d6175, #000235)">
+
+<div id="imagen-caja">
+    <img id="imagen" src="../../img/Callcenter.jpg"/></div>
+
+
+    <div id="formulario"><form>
+        <h2>En breve estaremos poniendonos en contacto con usted!!</h2>
+        <label for="nombreapellido">Nombre y apellido</label>
+        <input type="text" id="nombreapellido" class="input-padron" required>
+
+
+        <label for="correoelectronico">Correo Electronico</label>
+        <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+        <label for="telefono">Telefono</label>
+        <input type="tel" id="telefono" class="input-padron" required placeholder="(XXX) XXXX XXXX">
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
+
+        <fieldset>
+            <legend>¿Como le gustaria que lo contactemos?</legend>
+
+            <label for="radio-email"><input type="radio" name="contacto" value="email"
+                                            id="radio-email">Email</label>
+            <label for="radio-telefono"><input type="radio" name="contacto" value="email"
+                                               id="radio-telefono">Telefono</label>
+            <label for="radio-whatsapp"><input type="radio" name="contacto" value="email" id="radio-whatsapp"
+                                               checked>Whatsapp</label>
+
+        </fieldset>
+
+
+        <input type="submit" value="Enviar formulario" id="enviarformulario">
+    </form></div>
+
+
+</section>
 <section>
     <footer>
         <img id="imgFooter" src="../../img/footer.jpg"/>

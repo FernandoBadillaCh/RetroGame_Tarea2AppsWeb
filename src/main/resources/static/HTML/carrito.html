@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="../CSS/reset.css">
     <link rel="stylesheet" href="../CSS/Style.css">
+    <link rel="stylesheet" href="../CSS/carrito.css">
+
 </head>
 <body>
 
-<section >
+<section>
     <header class="header">
         <img id="logo" src="../../img/Logo.jpg"/>
-        <div id="Titulo"><h1 style="color: #b126f8">Retro </h1><h1> Game</h1></div>
+        <div id="Titulo"><h1 style="color: #b126f8">Retro </h1>
+            <h1> Game</h1></div>
 
         <nav id="Links">
             <ul>
@@ -25,6 +29,30 @@
     </header>
 </section>
 
+<section id="background">
+    <div id="h2CarritoVacio"><h2>Carrito vacio</h2></div>
+    <div id="h2Recomendacion"><h2>Te recomendamos!!</h2></div>
+
+    <div class="contenedor-carrito">
+        <div class="contenedor-carrito-caja">
+            <a href="catalogo.html" class="boton-carrito">Ir al catalogo</a>
+        </div>
+    </div>
+
+    <ul class="productos">
+        <li >
+            <h2>God of War Ragnarök</h2>
+            <img class="imagenes-productos"
+                 src="https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/aqZdSwWyy9JcQ66BxHDKrky6.jpg?w=620&thumb=false">
+            <p class="producto-descripcion">Kratos y Atreus deben viajar a cada uno de los nueve reinos, mientras que
+                las fuerzas asgardianas se preparan para una batalla profetizada que terminará con el mundo.</p>
+            <p class="producto-precio">$ 69.99</p>
+            <input class="input-padron" type="submit" value="Agregar al Carrito" id="enviarcarrito">
+        </li>
+
+
+    </ul>
+</section>
 
 
 <section>
