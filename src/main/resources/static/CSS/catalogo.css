@@ -1,3 +1,7 @@
+#background{
+    background: linear-gradient(#6d6175,#000235);
+}
+
 .productos .izquierda{
     display: inline-block;
     text-align: center;
@@ -41,8 +45,9 @@
     font-size: 33px;
 }
 
+
 .producto-descripcion {
-    font-size: 18px;
+    font-size: 20px;
     color: aliceblue;
 
 }
