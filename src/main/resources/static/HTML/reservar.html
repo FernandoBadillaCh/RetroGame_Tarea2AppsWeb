@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservar</title>
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <link rel="stylesheet" href="../CSS/reserva.css">
+</head>
+<body>
+<section >
+    <header class="header">
+        <img id="logo" src="../../img/Logo.jpg"/>
+        <div id="Titulo"><h1 style="color: #b126f8">Retro </h1><h1> Game</h1></div>
+
+        <nav id="Links">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="registro.html">Registrarse</a></li>
+                <li><a href="login.html">Iniciar Sesión</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="reservar.html">Reservar</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+</section>
+
+<section id="Reserva-back" style="background: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2021/03/crash-bandicoot-run-2257809.jpg?tf=3840x); background-size: cover"">
+
+<div>
+    <form>
+        <label for="nombreapellido">Nombre completo</label>
+        <input type="text" id="nombreapellido" class="input-padron" required>
+
+        <label for="telefono">Telefono</label>
+        <input type="tel" id="telefono" class="input-padron" required placeholder="(XXX) XXXX XXXX">
+
+
+        <label for="fechareserva">Fecha a reservar</label>
+        <input type="date" id="fechareserva" class="input-padron" required >
+
+        <label for="horareserva">Hora a reservar</label>
+        <input type="time" id="horareserva" class="input-padron"  required >
+
+        <fieldset>
+            <legend>¿Que juego desea reservar?</legend>
+
+            <select name="juegosDisponibles" id="select">
+                <option>Spider-Man: Miles Morales</option>
+                <option>EA SPORTS™ FC 24</option>
+                <option>Cyberpunk 2077</option>
+                <option>Helldivers™ 2</option>
+                <option>God of War Ragnarök</option>
+                <option>Ratchet & Clank: Rift Apart</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Reservar</legend>
+
+            <label for="radio-Ps5"><input type="radio" name="consola" value="PS5"
+                                            id="radio-Ps5">PS5</label>
+            <label for="radio-Ps4"><input type="radio" name="consola" value="PS$"
+                                               id="radio-Ps4">PS4</label>
+            <label for="radio-Pc"><input type="radio" name="consola" value="PC" id="radio-Pc"
+                                               >PC</label>
+
+        </fieldset>
+
+
+        <input type="submit" value="¡¡Buscar disponibilidad!!" id="enviarformulario">
+    </form>
+</div>
+
+</section>
+
+
+<section>
+    <footer>
+        <img id="imgFooter" src="../../img/footer.jpg"/>
+        <p class="copyright"> &copy; Copyright Retro Game - Fernando Badilla - Tarea 2</p>
+    </footer>
+</section>
+</body>
+</html>

@@ -1,39 +1,50 @@
-.BackgroundForm{
-    background: linear-gradient(#6d6175,#000235);
-    padding-top: 50px;
-}
 
-body{
-    background: #000235;
-}
+
 form {
     color: aliceblue;
+
+    width: 35%;
+    text-align: center;
+    padding-bottom: 15%;
+    padding-top: 5%;
+   margin-left: 10%;
+    filter: barn(5px);
 }
 
-form label{
+form label, legend{
     display: block;
-    font-size: 22px;
+    font-size: 25px;
     margin: 0 auto 30px;
     text-align: center;
     padding-top: 15px;
 
 }
 
+fieldset label{
+    margin: 5px;
+}
+
 .input-padron {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 10px;
     padding: 10px 25px;
     width: 30%;
 }
 
 .checkbox {
-    margin: 20px 0px;
+    margin: 10px 0px;
+}
+
+#select{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 #enviarformulario {
     margin: 30px auto 0;
 
-    width: 25%;
+    width: 40%;
     padding: 25px 0px;
     font-size: 18px;
     font-weight: bold;
