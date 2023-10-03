@@ -58,8 +58,8 @@
 }
 
 .imagenes-productos{
-    max-width: 500px;
-    max-height: 5%;
+    max-width: 100%;
+
     margin-bottom: 20px;
 }
 
